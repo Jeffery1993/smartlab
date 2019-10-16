@@ -14,7 +14,7 @@ public class Processor {
     private Processor() {
     }
 
-    private static final String ASSIGN_PREFIX_REGEX = "^(\\w+)\\s*\\=(.*)$";
+    private static final String ASSIGN_PREFIX_REGEX = "^(\\w+)\\s*=(.*)$";
     private static final Pattern ASSIGN_PREFIX_PATTERN = Pattern.compile(ASSIGN_PREFIX_REGEX);
 
     public static final Console CONSOLE = JCommander.newBuilder().build().getConsole();
